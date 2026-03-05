@@ -1,0 +1,32 @@
+{
+  "name": "puppeteer-cinema-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "bdd": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valserdenisova/puppeteer-cinema-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/valserdenisova/puppeteer-cinema-test/issues"
+  },
+  "homepage": "https://github.com/valserdenisova/puppeteer-cinema-test#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "chai": "^4.3.4",
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^24.38.0"
+  }
+}
